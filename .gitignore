@@ -1,0 +1,157 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# API Keys and Secrets
+*.key
+*.pem
+*.p12
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Anthropic API Keys
+*anthropic*.key
+anthropic_key*
+ANTHROPIC_API_KEY*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data files (large datasets)
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+
+# Model files
+*.pkl
+*.joblib
+*.model
+models/
+checkpoints/
+
+# Results and outputs
+results/outputs/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+outputs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Node.js (if using any JS tools)
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Research specific
+experiments/
+wandb/
+mlruns/
+.neptune/
+
+# Cache
+.cache/
+.pytest_cache/
